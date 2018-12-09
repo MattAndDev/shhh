@@ -1,3 +1,4 @@
+#!/bin/sh
 PS1_HEAD=$'🌈%{ %}';
 PS1_BASE=$(basename $(pwd));
 PS1_COLOR_CYAN=$'%{\e[38;2;10;247;249m%}'
