@@ -28,3 +28,4 @@ export PS1='$PS1_HEAD $PS1_COLOR_CYAN%n:$PS1_COLOR_GREEN%c:$PS1_COLOR_BLUE$(git_
 alias la="ls -la"
 alias git-aa="git add -A"
 alias git-rh="git reset --hard"
+alias panic="ps -axr -o %cpu -o %mem -o lstart -o ucomm -o pid| head -15"
